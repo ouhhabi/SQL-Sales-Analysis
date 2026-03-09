@@ -29,34 +29,56 @@ The dataset contains sales information with the following fields:
 
 ---
 
-## 📊 Dashboard Features
+📊 Business Insights from the Dashboard
+1️⃣ Global Performance Overview
 
-### 🔹 Global KPIs
-- Total Revenue
-- Number of Clients
-- Average Revenue per Client
+The dashboard provides a quick overview of business performance through key KPIs:
 
-DAX measures used:
+Total Revenue
 
-DAX
-CA total = SUM(ventes[CA])
+Number of Clients
 
-Nombre de clients = DISTINCTCOUNT(ventes[client_id])
+Average Revenue per Client
 
-CA moyen par client = DIVIDE([CA total], [Nombre de clients])
-🔹 Time Analysis
+These metrics help evaluate overall sales performance and customer value.
 
-Line chart showing revenue evolution over time with a date filter.
+2️⃣ Revenue Trends Over Time
 
-🔹 Regional Analysis
+The time series analysis highlights how revenue evolves month by month.
 
-Map visualization showing revenue by region.
+Using the date slicer, users can:
 
-🔹 Case Type Analysis
+Analyze seasonal trends
 
-Treemap → Revenue by type of case
+Compare performance across different periods
 
-Stacked bar chart → Revenue by region and case type
+Identify growth or decline in sales activity
+
+This helps businesses track performance and detect important changes in revenue patterns.
+
+3️⃣ Regional Sales Performance
+
+The map visualization shows revenue distribution across regions.
+
+This allows decision-makers to:
+
+Identify top-performing regions
+
+Detect underperforming markets
+
+Adjust sales strategies based on geographic performance
+
+4️⃣ Case Type Analysis
+
+The dashboard also analyzes revenue by type of case (type_dossier).
+
+With the treemap and stacked bar chart, users can:
+
+Compare the contribution of each case type to total revenue
+
+Understand how case types perform across different regions
+
+Identify the most profitable business segments
 
 🚀 How to Use
 
